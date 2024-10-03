@@ -1,2 +1,4 @@
-result = 2 + 2
-print(result)
+def foo():
+    result = 2 - 500
+    print(result)    
+foo()
