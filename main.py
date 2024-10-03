@@ -1,4 +1,3 @@
 def foo():
-    result = 2 - 500
-    print(result)    
+    fucked = False  
 foo()
