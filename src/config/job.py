@@ -11,8 +11,7 @@ def submit_job():
 
 root = tk.Tk()
 root.title("Job Listing")
-
-<<<<<<< HEAD
+root.geometry("400x400")
 tk.Label(root, text="Job Title").grid(row=0, column=0, padx=10, pady=10)
 title_entry = tk.Entry(root)
 title_entry.grid(row=0, column=1, padx=10, pady=10)
@@ -25,7 +24,3 @@ submit_button = tk.Button(root, text="Submit", command=submit_job)
 submit_button.grid(row=2, column=0, columnspan=2, pady=10)
 
 root.mainloop()
-# oh nvm
-=======
-# Path: src/config/job.py
->>>>>>> unmain
