@@ -6,4 +6,6 @@ for i in range(1, N+1):
     
 print(sum_of_squares)
 
+# lol 
+
 
